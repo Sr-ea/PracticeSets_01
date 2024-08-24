@@ -10,6 +10,10 @@ namespace PS01_4_PassedFailed
     {
         static void Main(string[] args)
         {
+            int n = 34;
+
+            Console.WriteLine((n >= 50) ? "passed" : "failed");
+            //para di na need ng variable + shorter code lol
         }
     }
 }
