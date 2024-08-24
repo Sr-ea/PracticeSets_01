@@ -10,6 +10,12 @@ namespace PracticeSets_01
     {
         static void Main(string[] args)
         {
+            int n = 10;
+
+            if (n % 2 == 0)
+            {
+                Console.WriteLine($"{n} is even");
+            }
         }
     }
 }
